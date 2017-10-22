@@ -14056,7 +14056,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="CN1" library="SparkFun-Connectors" deviceset="POWER_JACK" device="PTH" value="Power In"/>
 <part name="CN2" library="SparkFun-Connectors" deviceset="USB" device="PTH" value="USB-B"/>
 <part name="U2" library="ftdi-sen" deviceset="FT230X" device=""/>
-<part name="LED1" library="SparkFun-LED" deviceset="LED" device="5MM" value="IR"/>
+<part name="LED1" library="SparkFun-LED" deviceset="LED" device="1206" value="IR"/>
 <part name="U3" library="SparkFun-PowerIC" deviceset="V_REG_MC33269" device="DT" value="NCP1117DT33G"/>
 <part name="C1" library="rcl" deviceset="C-US" device="C0805" value="10uF"/>
 <part name="C2" library="rcl" deviceset="C-US" device="C0805" value="10uF"/>
