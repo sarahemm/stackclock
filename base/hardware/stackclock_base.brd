@@ -188,22 +188,22 @@ Base</text>
 <text x="51.7525" y="51.7525" size="1.524" layer="22" ratio="10" rot="MR180" align="center-right">http://hackstrich.sen.cx/StackClock</text>
 <text x="67.961" y="0.916" size="1.143" layer="22" rot="MR0">Released under Creative Commons Attribution-ShareAlike 3.0</text>
 <text x="68.0085" y="2.921" size="1.2065" layer="22" rot="MR0">Designed by sen</text>
-<rectangle x1="30.48" y1="20.6375" x2="66.9925" y2="31.75" layer="22"/>
-<text x="49.2125" y="33.3375" size="1.524" layer="22" ratio="10" rot="MR0" align="center">Serial</text>
-<text x="18.0975" y="29.845" size="1.778" layer="22" font="vector" rot="MR180" align="center">Rev001</text>
-<text x="18.0975" y="45.4025" size="2.54" layer="22" font="vector" rot="MR0" align="center">ECO</text>
-<text x="12.7" y="40.8305" size="2.54" layer="22" font="vector" rot="MR0" align="center-left">C</text>
-<wire x1="28.2575" y1="48.26" x2="9.2075" y2="48.26" width="0.254" layer="22"/>
-<wire x1="9.2075" y1="48.26" x2="9.2075" y2="31.75" width="0.254" layer="22"/>
-<wire x1="9.2075" y1="31.75" x2="28.2575" y2="31.75" width="0.254" layer="22"/>
-<wire x1="28.2575" y1="31.75" x2="28.2575" y2="48.26" width="0.254" layer="22"/>
-<rectangle x1="13.6525" y1="38.735" x2="17.4625" y2="42.545" layer="22" rot="R180"/>
-<text x="12.7" y="35.7505" size="2.54" layer="22" font="vector" rot="MR0" align="center-left">D</text>
-<rectangle x1="13.6525" y1="33.655" x2="17.4625" y2="37.465" layer="22" rot="R180"/>
-<text x="21.2725" y="40.8305" size="2.54" layer="22" font="vector" rot="MR0" align="center-left">A</text>
-<rectangle x1="22.225" y1="38.735" x2="26.035" y2="42.545" layer="22" rot="R180"/>
-<text x="21.2725" y="35.7505" size="2.54" layer="22" font="vector" rot="MR0" align="center-left">B</text>
-<rectangle x1="22.225" y1="33.655" x2="26.035" y2="37.465" layer="22" rot="R180"/>
+<rectangle x1="30.7975" y1="11.1125" x2="67.31" y2="22.225" layer="22"/>
+<text x="49.53" y="23.8125" size="1.524" layer="22" ratio="10" rot="MR0" align="center">Serial</text>
+<text x="27.94" y="27.305" size="1.778" layer="22" font="vector" rot="MR180" align="center">Rev001</text>
+<text x="27.94" y="42.8625" size="2.54" layer="22" font="vector" rot="MR0" align="center">ECO</text>
+<text x="22.5425" y="38.2905" size="2.54" layer="22" font="vector" rot="MR0" align="center-left">C</text>
+<wire x1="38.1" y1="45.72" x2="19.05" y2="45.72" width="0.254" layer="22"/>
+<wire x1="19.05" y1="45.72" x2="19.05" y2="29.21" width="0.254" layer="22"/>
+<wire x1="19.05" y1="29.21" x2="38.1" y2="29.21" width="0.254" layer="22"/>
+<wire x1="38.1" y1="29.21" x2="38.1" y2="45.72" width="0.254" layer="22"/>
+<rectangle x1="23.495" y1="36.195" x2="27.305" y2="40.005" layer="22" rot="R180"/>
+<text x="22.5425" y="33.2105" size="2.54" layer="22" font="vector" rot="MR0" align="center-left">D</text>
+<rectangle x1="23.495" y1="31.115" x2="27.305" y2="34.925" layer="22" rot="R180"/>
+<text x="31.115" y="38.2905" size="2.54" layer="22" font="vector" rot="MR0" align="center-left">A</text>
+<rectangle x1="32.0675" y1="36.195" x2="35.8775" y2="40.005" layer="22" rot="R180"/>
+<text x="31.115" y="33.2105" size="2.54" layer="22" font="vector" rot="MR0" align="center-left">B</text>
+<rectangle x1="32.0675" y1="31.115" x2="35.8775" y2="34.925" layer="22" rot="R180"/>
 </plain>
 <libraries>
 <library name="switch-sen">
