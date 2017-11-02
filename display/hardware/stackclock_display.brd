@@ -156,25 +156,25 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="154.285" y2="0" width="0" layer="20"/>
-<wire x1="154.285" y1="0" x2="154.285" y2="27.305" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="154.285" y2="0" width="0.0127" layer="20"/>
+<wire x1="154.285" y1="0" x2="154.285" y2="27.305" width="0.0127" layer="20"/>
 <wire x1="154.285" y1="27.305" x2="154.285" y2="33.02" width="0" layer="20"/>
-<wire x1="154.285" y1="34.925" x2="154.285" y2="40.64" width="0" layer="20"/>
-<wire x1="154.285" y1="40.64" x2="154.285" y2="58.4075" width="0" layer="20"/>
-<wire x1="154.285" y1="58.4075" x2="0" y2="58.4075" width="0" layer="20"/>
-<wire x1="0" y1="58.4075" x2="0" y2="40.64" width="0" layer="20"/>
-<wire x1="0" y1="40.64" x2="0" y2="34.925" width="0" layer="20"/>
-<wire x1="0" y1="33.02" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="154.285" y1="34.925" x2="154.285" y2="40.64" width="0.0127" layer="20"/>
+<wire x1="154.285" y1="40.64" x2="154.285" y2="58.4075" width="0.0127" layer="20"/>
+<wire x1="154.285" y1="58.4075" x2="0" y2="58.4075" width="0.0127" layer="20"/>
+<wire x1="0" y1="58.4075" x2="0" y2="40.64" width="0.0127" layer="20"/>
+<wire x1="0" y1="40.64" x2="0" y2="34.925" width="0.0127" layer="20"/>
+<wire x1="0" y1="33.02" x2="0" y2="0" width="0.0127" layer="20"/>
 <text x="138.049" y="49.5935" size="1.778" layer="21" align="center">VIN</text>
 <text x="137.9855" y="36.6395" size="1.778" layer="21" align="center">GND</text>
 <text x="17.399" y="55.9435" size="1.778" layer="21" align="center">SDA</text>
 <text x="17.3355" y="36.6395" size="1.778" layer="21" align="center">SCL</text>
 <text x="81.915" y="56.007" size="1.778" layer="21" align="center">AVR ISP</text>
 <text x="59.436" y="49.53" size="1.778" layer="21" align="center">RS232</text>
-<wire x1="0" y1="34.925" x2="6.0325" y2="34.925" width="0" layer="20"/>
-<wire x1="6.0325" y1="34.925" x2="6.0325" y2="33.02" width="0" layer="20"/>
-<wire x1="6.0325" y1="33.02" x2="0" y2="33.02" width="0" layer="20"/>
-<wire x1="11.1125" y1="34.925" x2="11.1125" y2="33.02" width="0" layer="20"/>
+<wire x1="0" y1="34.925" x2="6.0325" y2="34.925" width="0.0127" layer="20"/>
+<wire x1="6.0325" y1="34.925" x2="6.0325" y2="33.02" width="0.0127" layer="20"/>
+<wire x1="6.0325" y1="33.02" x2="0" y2="33.02" width="0.0127" layer="20"/>
+<wire x1="11.1125" y1="34.925" x2="11.1125" y2="33.02" width="0.0127" layer="20"/>
 <hole x="6.5675" y="34.9125" drill="0.5"/>
 <hole x="7.5675" y="34.9125" drill="0.5"/>
 <hole x="8.5675" y="34.9125" drill="0.5"/>
@@ -185,13 +185,13 @@
 <hole x="8.5675" y="33.0075" drill="0.5"/>
 <hole x="9.5675" y="33.0075" drill="0.5"/>
 <hole x="10.5675" y="33.0075" drill="0.5"/>
-<wire x1="11.1125" y1="34.925" x2="51.7525" y2="34.925" width="0" layer="20"/>
-<wire x1="11.1125" y1="33.02" x2="51.7525" y2="33.02" width="0" layer="20"/>
-<wire x1="154.285" y1="27.305" x2="154.285" y2="33.02" width="0" layer="20"/>
-<wire x1="154.285" y1="33.02" x2="148.2725" y2="33.02" width="0" layer="20"/>
-<wire x1="148.2725" y1="33.02" x2="148.2725" y2="34.925" width="0" layer="20"/>
-<wire x1="148.2725" y1="34.925" x2="154.285" y2="34.925" width="0" layer="20"/>
-<wire x1="143.1925" y1="33.02" x2="143.1925" y2="34.925" width="0" layer="20"/>
+<wire x1="11.1125" y1="34.925" x2="51.7525" y2="34.925" width="0.0127" layer="20"/>
+<wire x1="11.1125" y1="33.02" x2="51.7525" y2="33.02" width="0.0127" layer="20"/>
+<wire x1="154.285" y1="27.305" x2="154.285" y2="33.02" width="0.0127" layer="20"/>
+<wire x1="154.285" y1="33.02" x2="148.2725" y2="33.02" width="0.0127" layer="20"/>
+<wire x1="148.2725" y1="33.02" x2="148.2725" y2="34.925" width="0.0127" layer="20"/>
+<wire x1="148.2725" y1="34.925" x2="154.285" y2="34.925" width="0.0127" layer="20"/>
+<wire x1="143.1925" y1="33.02" x2="143.1925" y2="34.925" width="0.0127" layer="20"/>
 <hole x="147.7375" y="33.0325" drill="0.5"/>
 <hole x="146.7375" y="33.0325" drill="0.5"/>
 <hole x="145.7375" y="33.0325" drill="0.5"/>
@@ -202,10 +202,10 @@
 <hole x="145.7375" y="34.9375" drill="0.5"/>
 <hole x="144.7375" y="34.9375" drill="0.5"/>
 <hole x="143.7375" y="34.9375" drill="0.5"/>
-<wire x1="143.1925" y1="33.02" x2="102.5525" y2="33.02" width="0" layer="20"/>
-<wire x1="143.1925" y1="34.925" x2="102.5525" y2="34.925" width="0" layer="20"/>
-<wire x1="51.7525" y1="34.925" x2="51.7525" y2="33.02" width="0" layer="20"/>
-<wire x1="56.8325" y1="34.925" x2="56.8325" y2="33.02" width="0" layer="20"/>
+<wire x1="143.1925" y1="33.02" x2="102.5525" y2="33.02" width="0.0127" layer="20"/>
+<wire x1="143.1925" y1="34.925" x2="102.5525" y2="34.925" width="0.0127" layer="20"/>
+<wire x1="51.7525" y1="34.925" x2="51.7525" y2="33.02" width="0.0127" layer="20"/>
+<wire x1="56.8325" y1="34.925" x2="56.8325" y2="33.02" width="0.0127" layer="20"/>
 <hole x="52.2875" y="34.9125" drill="0.5"/>
 <hole x="53.2875" y="34.9125" drill="0.5"/>
 <hole x="54.2875" y="34.9125" drill="0.5"/>
@@ -216,10 +216,10 @@
 <hole x="54.2875" y="33.0075" drill="0.5"/>
 <hole x="55.2875" y="33.0075" drill="0.5"/>
 <hole x="56.2875" y="33.0075" drill="0.5"/>
-<wire x1="56.8325" y1="34.925" x2="97.4725" y2="34.925" width="0" layer="20"/>
-<wire x1="97.4725" y1="34.925" x2="97.4725" y2="33.02" width="0" layer="20"/>
+<wire x1="56.8325" y1="34.925" x2="97.4725" y2="34.925" width="0.0127" layer="20"/>
+<wire x1="97.4725" y1="34.925" x2="97.4725" y2="33.02" width="0.0127" layer="20"/>
 <wire x1="97.4725" y1="33.02" x2="91.44" y2="33.02" width="0" layer="20"/>
-<wire x1="102.5525" y1="34.925" x2="102.5525" y2="33.02" width="0" layer="20"/>
+<wire x1="102.5525" y1="34.925" x2="102.5525" y2="33.02" width="0.0127" layer="20"/>
 <hole x="98.0075" y="34.9125" drill="0.5"/>
 <hole x="99.0075" y="34.9125" drill="0.5"/>
 <hole x="100.0075" y="34.9125" drill="0.5"/>
@@ -230,7 +230,7 @@
 <hole x="100.0075" y="33.0075" drill="0.5"/>
 <hole x="101.0075" y="33.0075" drill="0.5"/>
 <hole x="102.0075" y="33.0075" drill="0.5"/>
-<wire x1="56.8325" y1="33.02" x2="97.4725" y2="33.02" width="0" layer="20"/>
+<wire x1="56.8325" y1="33.02" x2="97.4725" y2="33.02" width="0.0127" layer="20"/>
 <text x="3.205" y="47.1225" size="1.778" layer="21" rot="R90" align="center">StackClock
 Display</text>
 <text x="152.0825" y="47.3075" size="1.778" layer="21" rot="R90" align="center">Rev001</text>
@@ -2900,15 +2900,15 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R4" library="rcl" package="R0603" value="120" x="80.3275" y="41.9735"/>
 <element name="Q1" library="transistor-sen" package="1206_PHOTOTRANSISTOR" value="PT15-21C/TR8" x="86.995" y="41.91" rot="MR0"/>
 <element name="R5" library="rcl" package="R0603" value="47k" x="86.36" y="44.7675" rot="R180"/>
-<element name="TP1" library="SparkFun-Passives" package="TP_15TH" value="3.3v" x="93.091" y="48.4505"/>
-<element name="TP2" library="SparkFun-Passives" package="TP_15TH" value="LED SCL" x="122.9995" y="46.0375"/>
-<element name="TP3" library="SparkFun-Passives" package="TP_15TH" value="LED SDA" x="114.3635" y="52.3875"/>
-<element name="TP4" library="SparkFun-Passives" package="TP_15TH" value="LED SCK" x="29.972" y="51.1683"/>
-<element name="TP5" library="SparkFun-Passives" package="TP_15TH" value="LED MOSI" x="30.734" y="51.82235"/>
-<element name="TP6" library="SparkFun-Passives" package="TP_15TH" value="LED MOSI Out" x="39.116" y="51.17465"/>
-<element name="TP7" library="SparkFun-Passives" package="TP_15TH" value="LED !SS" x="30.734" y="50.5206"/>
-<element name="TP8" library="SparkFun-Passives" package="TP_15TH" value="LED !OE" x="39.9415" y="50.5206"/>
-<element name="TP9" library="SparkFun-Passives" package="TP_15TH" value="IR Level" x="82.8675" y="42.7355"/>
+<element name="TP1" library="SparkFun-Passives" package="TP_15TH" value="3.3v" x="93.091" y="48.4505" rot="MR0"/>
+<element name="TP2" library="SparkFun-Passives" package="TP_15TH" value="LED SCL" x="122.9995" y="46.0375" rot="MR0"/>
+<element name="TP3" library="SparkFun-Passives" package="TP_15TH" value="LED SDA" x="114.3635" y="52.3875" rot="MR0"/>
+<element name="TP4" library="SparkFun-Passives" package="TP_15TH" value="LED SCK" x="29.972" y="51.1683" rot="MR0"/>
+<element name="TP5" library="SparkFun-Passives" package="TP_15TH" value="LED MOSI" x="30.734" y="51.82235" rot="MR0"/>
+<element name="TP6" library="SparkFun-Passives" package="TP_15TH" value="LED MOSI Out" x="39.116" y="51.17465" rot="MR0"/>
+<element name="TP7" library="SparkFun-Passives" package="TP_15TH" value="LED !SS" x="30.734" y="50.5206" rot="MR0"/>
+<element name="TP8" library="SparkFun-Passives" package="TP_15TH" value="LED !OE" x="39.9415" y="50.5206" rot="MR0"/>
+<element name="TP9" library="SparkFun-Passives" package="TP_15TH" value="IR Level" x="82.8675" y="42.7355" rot="MR0"/>
 <element name="FRAME1" library="logos-sen" package="OSHW-LOGO-L" value="FRAME-LETTER-GRID-OSHW-SENOSHW-LOGO-L" x="137.795" y="21.9075" rot="MR0">
 <attribute name="REV" value="001" x="90.805" y="-79.6925" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
@@ -3391,7 +3391,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="73.787" y1="48.3931" x2="73.755" y2="48.4251" width="0.254" layer="1"/>
 <wire x1="73.9775" y1="52.07" x2="73.9775" y2="52.2605" width="0.254" layer="1"/>
 <wire x1="73.9775" y1="52.2605" x2="73.787" y2="52.451" width="0.254" layer="1"/>
-<wire x1="93.091" y1="48.4505" x2="93.091" y2="48.387" width="0.254" layer="16"/>
+<wire x1="93.091" y1="48.387" x2="93.091" y2="48.4505" width="0.4064" layer="16"/>
 </signal>
 <signal name="STACK_SDA">
 <contactref element="U3" pad="27"/>
