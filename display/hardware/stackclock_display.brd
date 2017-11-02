@@ -248,6 +248,9 @@ Display
 <text x="65.7225" y="1.905" size="1.778" layer="22" rot="MR180" align="center">Rev001</text>
 <rectangle x1="86.0425" y1="50.165" x2="113.665" y2="58.1025" layer="22"/>
 <text x="117.1575" y="54.2925" size="1.27" layer="22" rot="MR0" align="center">Serial</text>
+<text x="32.385" y="34.29" size="1.778" layer="20" align="center">CUT OUT</text>
+<text x="77.7875" y="34.29" size="1.778" layer="20" align="center">CUT OUT</text>
+<text x="123.825" y="34.29" size="1.778" layer="20" align="center">CUT OUT</text>
 </plain>
 <libraries>
 <library name="led-sen">
