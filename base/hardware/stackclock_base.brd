@@ -36,7 +36,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -2460,14 +2460,14 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="C18" library="rcl" package="C0603" value="0.1uF" x="102.87" y="15.17"/>
 <element name="C19" library="rcl" package="C0603" value="0.1uF" x="88.9" y="17.5575" rot="R180"/>
-<element name="TP1" library="SparkFun-Passives" package="TP_15TH" value="3.3v" x="117.1575" y="33.02"/>
-<element name="TP2" library="SparkFun-Passives" package="TP_15TH" value="CLK" x="104.68" y="17.5575"/>
-<element name="TP3" library="SparkFun-Passives" package="TP_15TH" value="UART VCCIO" x="73.4695" y="47.3075"/>
-<element name="TP4" library="SparkFun-Passives" package="TP_15TH" value="VBUS Mon" x="66.3575" y="37.7825"/>
-<element name="TP5" library="SparkFun-Passives" package="TP_15TH" value="UART To MCU" x="76.57" y="45.72"/>
-<element name="TP6" library="SparkFun-Passives" package="TP_15TH" value="MCU To UART" x="74.62" y="45.72"/>
-<element name="TP7" library="SparkFun-Passives" package="TP_15TH" value="Ref Clk +" x="114.3" y="27.94"/>
-<element name="TP8" library="SparkFun-Passives" package="TP_15TH" value="Ref Clk -" x="103.505" y="27.94"/>
+<element name="TP1" library="SparkFun-Passives" package="TP_15TH" value="3.3v" x="117.1575" y="33.02" rot="MR0"/>
+<element name="TP2" library="SparkFun-Passives" package="TP_15TH" value="CLK" x="104.68" y="17.5575" rot="MR0"/>
+<element name="TP3" library="SparkFun-Passives" package="TP_15TH" value="UART VCCIO" x="73.4695" y="47.3075" rot="MR0"/>
+<element name="TP4" library="SparkFun-Passives" package="TP_15TH" value="VBUS Mon" x="66.3575" y="37.7825" rot="MR0"/>
+<element name="TP5" library="SparkFun-Passives" package="TP_15TH" value="UART To MCU" x="76.57" y="45.72" rot="MR0"/>
+<element name="TP6" library="SparkFun-Passives" package="TP_15TH" value="MCU To UART" x="74.62" y="45.72" rot="MR0"/>
+<element name="TP7" library="SparkFun-Passives" package="TP_15TH" value="Ref Clk +" x="114.3" y="27.94" rot="MR0"/>
+<element name="TP8" library="SparkFun-Passives" package="TP_15TH" value="Ref Clk -" x="103.505" y="27.94" rot="MR0"/>
 <element name="JP1" library="con-sen" package="PAD-JUMPER-4-NO_YES_SILK" value="Clock Select" x="109.22" y="14.605" rot="R90"/>
 <element name="C20" library="rcl" package="C0603" value="0.1uF" x="98.7425" y="26.035" rot="R180"/>
 <element name="U$1" library="strichlabs" package="STRICH-LOGO" value="" x="153.9875" y="37.465" rot="R30"/>
