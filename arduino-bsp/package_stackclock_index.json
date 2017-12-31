@@ -11,7 +11,7 @@
           "category": "Hackstrich",
           "name": "StackClock Boards",
           "url": "https://github.com/sarahemm/stackclock/raw/master/arduino-bsp/stackclock-bsp-1.0.0.zip",
-          "checksum": "SHA-256:6727481e2ce6c864e0b32fc61e8b8f617a73323a822919a5b48c75390d0bc930",
+          "checksum": "SHA-256:c85bbb31c3e8f35e51db9a3cc688a8229c305814c3241664e34794e9304c0e25",
           "help": {
             "online": "http://hackstrich.sen.cx/StackClock"
           },
@@ -24,7 +24,7 @@
             }
           ],
           "toolsDependencies": [],
-          "size": "3887"
+          "size": "4225"
         }
       ],
       "tools": [],
