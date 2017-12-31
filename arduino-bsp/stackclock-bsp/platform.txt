@@ -1,0 +1,4 @@
+# StackClock Platform Configuration
+
+name=StackClock
+version=1.0.0

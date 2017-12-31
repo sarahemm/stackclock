@@ -1,0 +1,24 @@
+# StackClock Board Configuration
+
+##############################################################
+# StackClock Base Configuration
+stackclock_base.name=StackClock Base
+stackclock_base.bootloader.low_fuses=0xe0
+stackclock_base.bootloader.high_fuses=0xda
+stackclock_base.bootloader.extended_fuses=0xfd
+stackclock_base.bootloader.file=optiboot/TBD
+stackclock_base.bootloader.unlock_bits=0x3F
+stackclock_base.bootloader.lock_bits=0x0F
+stackclock_base.bootloader.tool=arduino:avrdude
+stackclock_base.build.mcu=atmega328p
+stackclock_base.build.f_cpu=10000000L
+stackclock_base.build.core=arduino:arduino
+stackclock_base.build.variant=stackclock_base
+stackclock_base.build.board=AVR_DUEMILANOVE
+stackclock_base.build.usb_product="StackClock"
+stackclock_base.build.usb_manufacturer="Hackstrich"
+stackclock_base.build.extra_flags={build.usb_flags}
+stackclock_base.upload.protocol=arduino
+stackclock_base.upload.maximum_size=30720
+stackclock_base.upload.speed=115200
+stackclock_base.upload.tool=arduino:avrdude

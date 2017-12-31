@@ -1,0 +1,35 @@
+{
+  "packages": [
+    {
+      "maintainer": "Hackstrich",
+      "help": {
+        "online": "https://hackstrich.sen.cx"
+      },
+      "websiteURL": "http://hackstrich.sen.cx",
+      "platforms": [
+        {
+          "category": "Hackstrich",
+          "name": "StackClock Boards",
+          "url": "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/sarahemm/stackclock/arduino-bsp/stackclock-bsp",
+          "checksum": "SHA-256:TBD",
+          "help": {
+            "online": "http://hackstrich.sen.cx/StackClock"
+          },
+          "version": "1.0.0",
+          "architecture": "avr",
+          "archiveFileName": "stackclock-bsp.zip",
+          "boards": [
+            {
+              "name": "StackClock Base"
+            }
+          ],
+          "toolsDependencies": [],
+          "size": "0"
+        }
+      ],
+      "tools": [],
+      "email": "github@sen.cx",
+      "name": "StackClock"
+    }
+  ]
+}
