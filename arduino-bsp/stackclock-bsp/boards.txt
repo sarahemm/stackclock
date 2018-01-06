@@ -22,3 +22,23 @@ stackclock_base.upload.protocol=arduino
 stackclock_base.upload.maximum_size=30720
 stackclock_base.upload.speed=115200
 stackclock_base.upload.tool=arduino:avrdude
+
+##############################################################
+# StackClock Display Configuration
+stackclock_display.name=StackClock Display
+stackclock_display.bootloader.low_fuses=0xe2
+stackclock_display.bootloader.high_fuses=0xde
+stackclock_display.bootloader.extended_fuses=0xfd
+stackclock_display.bootloader.file=optiboot/optiboot_atmega328scd.hex
+stackclock_display.bootloader.unlock_bits=0xFF
+stackclock_display.bootloader.lock_bits=0xCF
+stackclock_display.bootloader.tool=arduino:avrdude
+stackclock_display.build.mcu=atmega328pb
+stackclock_display.build.f_cpu=8000000L
+stackclock_display.build.core=arduino:arduino
+stackclock_display.build.variant=stackclock_display
+stackclock_display.build.board=AVR_DUEMILANOVE
+stackclock_display.upload.protocol=arduino
+stackclock_display.upload.maximum_size=32256
+stackclock_display.upload.speed=38400
+stackclock_display.upload.tool=arduino:avrdude
