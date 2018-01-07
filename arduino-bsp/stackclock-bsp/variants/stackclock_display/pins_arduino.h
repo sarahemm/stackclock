@@ -220,10 +220,18 @@ const uint8_t PROGMEM digital_pin_to_timer_PGM[] = {
 #define PIN_DSP1_ANODE    (2)
 #define PIN_DSP2_ANODE    (3)
 #define PIN_DSP3_ANODE    (4)
+
 #define PIN_DSP4_DPL      (7)
 #define PIN_DSP5_DPL      (8)
 #define PIN_DSP6_DPL      (9)
 #define PIN_DSP6_DPL      (10)
+
+#define PIN_LED_SDA       (20)
+#define PIN_LED_SCL       (21)
+#define PIN_LED_nSS       (22)
+#define PIN_LED_MOSI      (23)
+#define PIN_LED_SCK       (15)
+#define PIN_LED_nOE       (16)
 
 // analog
 #define IR_LEVEL          (3)

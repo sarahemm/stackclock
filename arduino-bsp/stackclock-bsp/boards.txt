@@ -41,4 +41,4 @@ stackclock_display.build.board=AVR_DUEMILANOVE
 stackclock_display.upload.protocol=arduino
 stackclock_display.upload.maximum_size=32256
 stackclock_display.upload.speed=38400
-stackclock_display.upload.tool=arduino:avrdude
+stackclock_display.upload.tool=avrdude

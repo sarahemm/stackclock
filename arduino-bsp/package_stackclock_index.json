@@ -66,6 +66,28 @@
           ],
           "toolsDependencies": [],
           "size": "8877"
+        },
+        {
+          "category": "Hackstrich",
+          "name": "StackClock Boards",
+          "url": "https://github.com/sarahemm/stackclock/raw/master/arduino-bsp/stackclock-bsp-1.0.3.zip",
+          "checksum": "SHA-256:3e4d3617153a001614dbe466f434dbd3f48c8c6b2d3c7c809b953a30b531f19a",
+          "help": {
+            "online": "http://hackstrich.sen.cx/StackClock"
+          },
+          "version": "1.0.3",
+          "architecture": "avr",
+          "archiveFileName": "stackclock-bsp-1.0.3.zip",
+          "boards": [
+            {
+              "name": "StackClock Base"
+            },
+            {
+              "name": "StackClock Display"
+            }
+          ],
+          "toolsDependencies": [],
+          "size": "41998"
         }
       ],
       "tools": [],
