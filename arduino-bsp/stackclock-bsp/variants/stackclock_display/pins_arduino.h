@@ -47,8 +47,8 @@ static const uint8_t SCK  = PIN_SPI_SCK;
 static const uint8_t SDA = PIN_WIRE_SDA;
 static const uint8_t SCL = PIN_WIRE_SCL;
 
-#define PIN_WIRE1_SDA   (22)
-#define PIN_WIRE1_SCL   (23)
+#define PIN_WIRE1_SDA   (20)
+#define PIN_WIRE1_SCL   (21)
 
 static const uint8_t SDA1 = PIN_WIRE1_SDA;
 static const uint8_t SCL1 = PIN_WIRE1_SCL;
@@ -181,8 +181,8 @@ const uint8_t PROGMEM digital_pin_to_timer_PGM[] = {
 	TIMER2A,
 	NOT_ON_TIMER,
 	NOT_ON_TIMER,
-	NOT_ON_TIMER,
 	NOT_ON_TIMER, /* 14 - port C */
+	NOT_ON_TIMER,
 	NOT_ON_TIMER,
 	NOT_ON_TIMER,
 	NOT_ON_TIMER,
