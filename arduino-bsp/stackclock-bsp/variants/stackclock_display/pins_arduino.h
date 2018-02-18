@@ -224,7 +224,7 @@ const uint8_t PROGMEM digital_pin_to_timer_PGM[] = {
 #define PIN_DSP4_DPL      (7)
 #define PIN_DSP5_DPL      (8)
 #define PIN_DSP6_DPL      (9)
-#define PIN_DSP6_DPL      (10)
+#define PIN_DSP7_DPL      (10)
 
 #define PIN_LED_SDA       (20)
 #define PIN_LED_SCL       (21)
