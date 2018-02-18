@@ -1,7 +1,13 @@
 # StackClock Platform Configuration
 
 name=StackClock
-version=1.0.2
+version=1.0.5
+
+# Compile/Link
+# ------------
+compiler.c.extra_flags=-D__AVR_DEV_LIB_NAME__=m328pb
+compiler.cpp.extra_flags=-D__AVR_DEV_LIB_NAME__=m328pb
+compiler.S.extra_flags=-D__AVR_DEV_LIB_NAME__=m328pb
 
 # AVR Uploader/Programmers tools
 # ------------------------------
