@@ -2,6 +2,7 @@
 
 # turn a text file of which segments to turn on for each character into a C array
 # intended to turn 16-segment font descriptions into C files
+# also used for generating 7-segment font definitions w/ slight modification after generation
 
 use strict;
 
