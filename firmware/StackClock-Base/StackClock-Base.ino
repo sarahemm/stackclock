@@ -28,6 +28,6 @@ void loop() {
     strncpy(alpha_buffer, alphabet+newPosition, 3);
     stackSetAlpha(1, alpha_buffer);
   }
-
+  
   cliServiceLoop();
 }

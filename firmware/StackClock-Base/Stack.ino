@@ -6,7 +6,7 @@ void stackInit(void) {
 
 void stackSetAlpha(byte stackAddress, char text[3]) {
   Wire.beginTransmission(stackAddress);
-  Wire.write(stackAddress);
+  Wire.write(CMD_SETALPHA);
   Wire.write(text[0]);
   Wire.write(text[1]);
   Wire.write(text[2]);
