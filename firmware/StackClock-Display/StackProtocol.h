@@ -1,1 +1,0 @@
-#define CMD_SETALPHA  0x01
