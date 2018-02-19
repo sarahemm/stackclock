@@ -1,0 +1,12 @@
+bitorder = ABCD EZFG
+
+0 = ABCDEF
+1 = BC
+2 = ABGED
+3 = ABGCD
+4 = FGBC
+5 = AFGCD
+6 = AFEDCG
+7 = ABC
+8 = ABCDEFG
+9 = ABCDGF
