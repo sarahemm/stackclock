@@ -3,12 +3,13 @@
 byte read_cmd;
 
 void stackInit(void) {
-  Wire.begin();
+  Wire.begin(1);  // TODO: this should be set via enumeration, not hard-coded
+  Wire.onReceive(stackProcessCommand);
+  Wire.onRequest(stackProcessReadRequest);
 }
 
 void stackProcessCommand(int numBytes) {
-    byte cmd = Wire.read();
-
+  byte cmd = Wire.read();
   switch (cmd) {
     case CMD_SETALPHA:
       char alpha_buf[3];

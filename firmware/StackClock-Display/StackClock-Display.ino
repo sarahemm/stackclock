@@ -12,10 +12,7 @@ void setup() {
 
   alphaInit();
   numericInit();
-  
-  Wire.begin(1);  // TODO: this should be set via enumeration, not hard-coded
-  Wire.onReceive(stackProcessCommand);
-  Wire.onRequest(stackProcessReadRequest);
+  stackInit();
 }
 
 void loop() {
