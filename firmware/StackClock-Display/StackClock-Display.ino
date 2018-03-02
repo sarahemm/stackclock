@@ -18,5 +18,8 @@ void setup() {
 void loop() {
   // this must be called frequently as it muxes the displays by hand
   alphaRefreshDisplays();
+
+  // process any commands waiting in the queue
+  stackProcessQueue();
 }
 

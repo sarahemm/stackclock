@@ -16,8 +16,8 @@ void displaymgrInit(void) {
   strcpy(boardDescs[2], "Unixtime Display");
   
   // set up the first board, which is us
-  configRunning.boards[0].boardType = BOARD_TYPE_BASE;
-  configRunning.boards[0].boardFWRev = FIRMWARE_VERSION;
+  configRunning.boards[0].boardType = BOARD_TYPE;
+  configRunning.boards[0].boardFWRev = BOARD_FWREV;
   strcpy(configRunning.boards[0].location, "BSE");
   configRunning.boards[0].tzOffset = 0;
 
