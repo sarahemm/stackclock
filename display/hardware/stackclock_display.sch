@@ -158,24 +158,24 @@
 <packages>
 <package name="LITEON-LTP587">
 <description>0.5" 16-segment LED display</description>
-<pad name="1" x="-6.35" y="10.16" drill="0.8" shape="square"/>
-<pad name="18" x="6.35" y="10.16" drill="0.8"/>
-<pad name="2" x="-6.35" y="7.62" drill="0.8"/>
-<pad name="3" x="-6.35" y="5.08" drill="0.8"/>
-<pad name="4" x="-6.35" y="2.54" drill="0.8"/>
-<pad name="5" x="-6.35" y="0" drill="0.8"/>
-<pad name="6" x="-6.35" y="-2.54" drill="0.8"/>
-<pad name="7" x="-6.35" y="-5.08" drill="0.8"/>
-<pad name="8" x="-6.35" y="-7.62" drill="0.8"/>
-<pad name="9" x="-6.35" y="-10.16" drill="0.8"/>
-<pad name="17" x="6.35" y="7.62" drill="0.8"/>
-<pad name="16" x="6.35" y="5.08" drill="0.8"/>
-<pad name="15" x="6.35" y="2.54" drill="0.8"/>
-<pad name="14" x="6.35" y="0" drill="0.8"/>
-<pad name="13" x="6.35" y="-2.54" drill="0.8"/>
-<pad name="12" x="6.35" y="-5.08" drill="0.8"/>
-<pad name="11" x="6.35" y="-7.62" drill="0.8"/>
-<pad name="10" x="6.35" y="-10.16" drill="0.8"/>
+<pad name="1" x="-6.35" y="10.16" drill="0.8" diameter="1.524" shape="square"/>
+<pad name="18" x="6.35" y="10.16" drill="0.8" diameter="1.524"/>
+<pad name="2" x="-6.35" y="7.62" drill="0.8" diameter="1.524"/>
+<pad name="3" x="-6.35" y="5.08" drill="0.8" diameter="1.524"/>
+<pad name="4" x="-6.35" y="2.54" drill="0.8" diameter="1.524"/>
+<pad name="5" x="-6.35" y="0" drill="0.8" diameter="1.524"/>
+<pad name="6" x="-6.35" y="-2.54" drill="0.8" diameter="1.524"/>
+<pad name="7" x="-6.35" y="-5.08" drill="0.8" diameter="1.524"/>
+<pad name="8" x="-6.35" y="-7.62" drill="0.8" diameter="1.524"/>
+<pad name="9" x="-6.35" y="-10.16" drill="0.8" diameter="1.524"/>
+<pad name="17" x="6.35" y="7.62" drill="0.8" diameter="1.524"/>
+<pad name="16" x="6.35" y="5.08" drill="0.8" diameter="1.524"/>
+<pad name="15" x="6.35" y="2.54" drill="0.8" diameter="1.524"/>
+<pad name="14" x="6.35" y="0" drill="0.8" diameter="1.524"/>
+<pad name="13" x="6.35" y="-2.54" drill="0.8" diameter="1.524"/>
+<pad name="12" x="6.35" y="-5.08" drill="0.8" diameter="1.524"/>
+<pad name="11" x="6.35" y="-7.62" drill="0.8" diameter="1.524"/>
+<pad name="10" x="6.35" y="-10.16" drill="0.8" diameter="1.524"/>
 <wire x1="8" y1="12.5" x2="-8" y2="12.5" width="0.127" layer="21"/>
 <wire x1="8" y1="-12.5" x2="-8" y2="-12.5" width="0.127" layer="21"/>
 <wire x1="-8" y1="12.5" x2="-8" y2="-12.5" width="0.127" layer="21"/>
@@ -184,16 +184,16 @@
 </package>
 <package name="KINGBRIGHT-SA39-11">
 <description>7-segment 0.39" high display</description>
-<pad name="1" x="-3.81" y="5.08" drill="0.8" shape="square"/>
-<pad name="2" x="-3.81" y="2.54" drill="0.8"/>
-<pad name="3" x="-3.81" y="0" drill="0.8"/>
-<pad name="4" x="-3.81" y="-2.54" drill="0.8"/>
-<pad name="5" x="-3.81" y="-5.08" drill="0.8"/>
-<pad name="10" x="3.81" y="5.08" drill="0.8"/>
-<pad name="9" x="3.81" y="2.54" drill="0.8"/>
-<pad name="8" x="3.81" y="0" drill="0.8"/>
-<pad name="7" x="3.81" y="-2.54" drill="0.8"/>
-<pad name="6" x="3.81" y="-5.08" drill="0.8"/>
+<pad name="1" x="-3.81" y="5.08" drill="0.8" diameter="1.524" shape="square"/>
+<pad name="2" x="-3.81" y="2.54" drill="0.8" diameter="1.524"/>
+<pad name="3" x="-3.81" y="0" drill="0.8" diameter="1.524"/>
+<pad name="4" x="-3.81" y="-2.54" drill="0.8" diameter="1.524"/>
+<pad name="5" x="-3.81" y="-5.08" drill="0.8" diameter="1.524"/>
+<pad name="10" x="3.81" y="5.08" drill="0.8" diameter="1.524"/>
+<pad name="9" x="3.81" y="2.54" drill="0.8" diameter="1.524"/>
+<pad name="8" x="3.81" y="0" drill="0.8" diameter="1.524"/>
+<pad name="7" x="3.81" y="-2.54" drill="0.8" diameter="1.524"/>
+<pad name="6" x="3.81" y="-5.08" drill="0.8" diameter="1.524"/>
 <wire x1="5" y1="6.5" x2="-5" y2="6.5" width="0.127" layer="21"/>
 <wire x1="5" y1="-6.5" x2="-5" y2="-6.5" width="0.127" layer="21"/>
 <wire x1="-5" y1="6.5" x2="-5" y2="-6.5" width="0.127" layer="21"/>
@@ -202,22 +202,19 @@
 </package>
 <package name="LUMEX-LDS-A814/A812">
 <description>7-segment 0.8" high display</description>
-<pad name="1" x="-7.62" y="8.89" drill="0.8" shape="square"/>
-<pad name="2" x="-7.62" y="6.35" drill="0.8"/>
-<pad name="3" x="-7.62" y="3.81" drill="0.8"/>
-<pad name="4" x="-7.62" y="1.27" drill="0.8"/>
-<pad name="5" x="-7.62" y="-1.27" drill="0.8"/>
-<pad name="6" x="-7.62" y="-3.81" drill="0.8"/>
-<pad name="7" x="-7.62" y="-6.35" drill="0.8"/>
-<pad name="8" x="-7.62" y="-8.89" drill="0.8"/>
-<pad name="16" x="7.62" y="8.89" drill="0.8"/>
-<pad name="15" x="7.62" y="6.35" drill="0.8"/>
-<pad name="14" x="7.62" y="3.81" drill="0.8"/>
-<pad name="13" x="7.62" y="1.27" drill="0.8"/>
-<pad name="12" x="7.62" y="-1.27" drill="0.8"/>
-<pad name="11" x="7.62" y="-3.81" drill="0.8"/>
-<pad name="10" x="7.62" y="-6.35" drill="0.8"/>
-<pad name="9" x="7.62" y="-8.89" drill="0.8"/>
+<pad name="1" x="-7.62" y="8.89" drill="0.8" diameter="1.524" shape="square"/>
+<pad name="2" x="-7.62" y="6.35" drill="0.8" diameter="1.524"/>
+<pad name="3" x="-7.62" y="3.81" drill="0.8" diameter="1.524"/>
+<pad name="4" x="-7.62" y="1.27" drill="0.8" diameter="1.524"/>
+<pad name="5" x="-7.62" y="-1.27" drill="0.8" diameter="1.524"/>
+<pad name="6" x="-7.62" y="-3.81" drill="0.8" diameter="1.524"/>
+<pad name="16" x="7.62" y="8.89" drill="0.8" diameter="1.524"/>
+<pad name="14" x="7.62" y="3.81" drill="0.8" diameter="1.524"/>
+<pad name="13" x="7.62" y="1.27" drill="0.8" diameter="1.524"/>
+<pad name="12" x="7.62" y="-1.27" drill="0.8" diameter="1.524"/>
+<pad name="11" x="7.62" y="-3.81" drill="0.8" diameter="1.524"/>
+<pad name="10" x="7.62" y="-6.35" drill="0.8" diameter="1.524"/>
+<pad name="9" x="7.62" y="-8.89" drill="0.8" diameter="1.524"/>
 <wire x1="-10" y1="13.85" x2="10" y2="13.85" width="0.127" layer="21"/>
 <wire x1="-10" y1="-13.85" x2="10" y2="-13.85" width="0.127" layer="21"/>
 <wire x1="-10" y1="-13.85" x2="-10" y2="13.85" width="0.127" layer="21"/>
