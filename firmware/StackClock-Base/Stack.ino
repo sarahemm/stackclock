@@ -7,27 +7,40 @@ void stackInit(void) {
 }
 
 void stackSetAlpha(byte stackAddress, char *text) {
-  Serial.println("Alpha Set Start");
+  char buf[3];
+  strncpy(buf, text, 3);
   Wire.beginTransmission(stackAddress);
   Wire.write(CMD_SETALPHA);
-  Wire.write((char)*text);
-  Wire.write((char)*text+1);
-  Wire.write((char)*text+2);
-  Serial.println("Alpha Set End");
+  Wire.write(buf[0]);
+  Wire.write(buf[1]);
+  Wire.write(buf[2]);
   Wire.endTransmission();
-  Serial.println("Alpha Set Done");
 }
 
-void stackSetTime(byte stackAddress, byte hour, byte minute, byte second) {
-  Serial.println("Num Set Start");
+void stackSetTime(byte stackAddress, byte second, byte minute, byte hour) {
   Wire.beginTransmission(stackAddress);
   Wire.write(CMD_SETTIME);
   Wire.write(3); // we're setting all 3 time components
   Wire.write(second);
   Wire.write(minute);
   Wire.write(hour);
-  Serial.println("Num Set End");
   Wire.endTransmission();
-  Serial.println("Num Set Done");
+}
+
+void stackSetTime(byte stackAddress, byte second, byte minute) {
+  Wire.beginTransmission(stackAddress);
+  Wire.write(CMD_SETTIME);
+  Wire.write(2); // we're setting just the minutes and seconds
+  Wire.write(second);
+  Wire.write(minute);
+  Wire.endTransmission();
+}
+
+void stackSetTime(byte stackAddress, byte second) {
+  Wire.beginTransmission(stackAddress);
+  Wire.write(CMD_SETTIME);
+  Wire.write(1); // we're setting just the seconds
+  Wire.write(second);
+  Wire.endTransmission();
 }
 

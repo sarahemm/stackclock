@@ -15,13 +15,37 @@ void setup() {
   configInit();
   displaymgrInit();
   stackInit();
-
+  timeInit();
+  
   Serial.println("StackClock Base ready.");
 }
 
-long oldPosition  = -999;
+byte last_second, last_minute, last_hour;
 
 void loop() {
+  if(!timeIsSet()) {
+    timeSet(2017, 03, 06, 21, 43, 00);
+    timeGet();
+    stackSetTime(1, timeGetSecond(), timeGetMinute(), timeGetHour());
+    stackSetAlpha(1, "QET");
+  } else {
+    timeGet();
+    if(last_hour != timeGetHour()) {
+      last_hour = timeGetHour();
+      last_minute = timeGetMinute();
+      last_second = timeGetSecond();
+      stackSetTime(1, timeGetSecond(), timeGetMinute(), timeGetHour());
+    } else if(last_minute != timeGetMinute()) {
+      last_minute = timeGetMinute();
+      last_second = timeGetSecond();
+      stackSetTime(1, timeGetSecond(), timeGetMinute());
+    } else if(last_second != timeGetSecond()) {
+      last_second = timeGetSecond();
+      stackSetTime(1, timeGetSecond());
+    }
+  }
+  
+  /*
   char alphabet[27];
   char alpha_buffer[3];
   strcpy(alphabet, "ABCDEFGHIJKLMNOPQRSTUVWXYZ");
@@ -35,6 +59,8 @@ void loop() {
     strncpy(alpha_buffer, alphabet+newPosition, 3);
     stackSetAlpha(1, alpha_buffer);
   }
-
+  */
+  
   //cliServiceLoop();
+  delay(100);
 }
