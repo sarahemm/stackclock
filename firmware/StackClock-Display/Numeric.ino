@@ -5,7 +5,7 @@
 // display aren't hooked up to the pins you'd expect, this maps logical display to physical display
 byte display_map[] = {2, 6, 5, 4, 1, 3};
 
-byte numeric_buffer[6];
+byte numeric_buffer[8];
 
 AS1115 num_disp = AS1115(0x03, 1);
 
@@ -57,7 +57,7 @@ void numericRefreshDisplays(void) {
   byte seg_nbr, display_nbr;
 
   memset(&display_buffer, 0, 9);
-
+  
   // pivot the array so displays become segments and vice-versa
   // also map the display numbers since display 0 isn't the leftmost, etc.
   for(display_nbr=0; display_nbr<=5; display_nbr++) {

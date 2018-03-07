@@ -32,6 +32,9 @@ void alphaDisplayOn(byte displayPin) {
 
 void alphaSetText(char *text) {
   strncpy(alpha_buffer, text, 3);
+  Serial.println(text[0], DEC);
+  Serial.println(text[1], DEC);
+  Serial.println(text[2], DEC);
 }
 
 void alphaRefreshDisplays(void) {

@@ -56,7 +56,7 @@ void stackProcessQueue(void) {
         // this intentionally falls through
         switch (num_bytes) {
           case 3:
-            time_val = wire_buf[2];
+            time_val = wire_buf[4];
             numericSetHour(time_val);
             cmd_len++;
           case 2:
@@ -64,7 +64,7 @@ void stackProcessQueue(void) {
             numericSetMinute(time_val);
             cmd_len++;
           case 1:
-            time_val = wire_buf[4];
+            time_val = wire_buf[2];
             numericSetSecond(time_val);
             numericRefreshDisplays();
             cmd_len++;
