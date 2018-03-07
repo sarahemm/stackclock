@@ -233,7 +233,7 @@
 <wire x1="56.8325" y1="33.02" x2="97.4725" y2="33.02" width="0.0127" layer="20"/>
 <text x="3.205" y="47.7575" size="1.778" layer="21" rot="R90" align="center">StackClock
 Display</text>
-<text x="152.0825" y="47.9425" size="1.778" layer="21" rot="R90" align="center">Rev001</text>
+<text x="152.0825" y="47.9425" size="1.778" layer="21" rot="R90" align="center">Rev002</text>
 <text x="113.3475" y="57.4675" size="1.27" layer="21" align="center">http://hackstrich.sen.cx/StackClock</text>
 <text x="105.426" y="37.4285" size="1.143" layer="22" rot="MR0">Released under Creative Commons Attribution-ShareAlike 3.0</text>
 <text x="105.4735" y="39.4335" size="1.2065" layer="22" rot="MR0">Designed by sen</text>
@@ -2936,13 +2936,13 @@ Please make sure your boards conform to these design rules.</description>
 <element name="TP8" library="SparkFun-Passives" package="TP_15TH" value="LED !OE" x="39.9415" y="51.1556" rot="MR0"/>
 <element name="TP9" library="SparkFun-Passives" package="TP_15TH" value="IR Level" x="82.8675" y="43.3705" rot="MR0"/>
 <element name="FRAME1" library="logos-sen" package="OSHW-LOGO-L" value="FRAME-LETTER-GRID-OSHW-SENOSHW-LOGO-L" x="137.795" y="21.9075" rot="MR0">
-<attribute name="REV" value="001" x="90.805" y="-79.6925" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="REV" value="002" x="90.805" y="-79.6925" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="FRAME2" library="logos-sen" package="OSHW-LOGO-L" value="FRAME-LETTER-GRID-OSHW-SENOSHW-LOGO-L" x="24.765" y="51.1175" rot="MR0">
-<attribute name="REV" value="001" x="-29.845" y="-50.4825" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="REV" value="002" x="-29.845" y="-50.4825" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="FRAME3" library="logos-sen" package="OSHW-LOGO-L" value="FRAME-LETTER-GRID-OSHW-SENOSHW-LOGO-L" x="24.765" y="51.1175">
-<attribute name="REV" value="001" x="86.995" y="-50.4825" size="1.778" layer="27" display="off"/>
+<attribute name="REV" value="002" x="86.995" y="-50.4825" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U$1" library="strichlabs" package="STRICH-LOGO-R" value="" x="153.3525" y="24.765" rot="MR315"/>
 <element name="U$2" library="strichlabs" package="STRICH-LOGO" value="" x="153.035" y="55.5625" rot="R40"/>

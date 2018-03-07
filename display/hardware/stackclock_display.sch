@@ -12140,13 +12140,13 @@ MMBT4403 - 40V 600mA SOT-23 (TRANS-09245)</description>
 <part name="TP9" library="SparkFun-Passives" deviceset="TEST-POINT" device="TP_15TH_THRU" value="IR Level"/>
 <part name="SUPPLY10" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="FRAME1" library="logos-sen" deviceset="FRAME-LETTER-GRID-OSHW-SEN" device="OSHW-LOGO-L">
-<attribute name="REV" value="001"/>
+<attribute name="REV" value="002"/>
 </part>
 <part name="FRAME2" library="logos-sen" deviceset="FRAME-LETTER-GRID-OSHW-SEN" device="OSHW-LOGO-L">
-<attribute name="REV" value="001"/>
+<attribute name="REV" value="002"/>
 </part>
 <part name="FRAME3" library="logos-sen" deviceset="FRAME-LETTER-GRID-OSHW-SEN" device="OSHW-LOGO-L">
-<attribute name="REV" value="001"/>
+<attribute name="REV" value="002"/>
 </part>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
@@ -14056,7 +14056,6 @@ MMBT4403 - 40V 600mA SOT-23 (TRANS-09245)</description>
 <segment>
 <label x="127" y="132.08" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="CN2-DISP" gate="1" pin="14"/>
-<wire x1="129.54" y1="132.08" x2="127" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="132.08" x2="127" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
