@@ -12159,11 +12159,19 @@ MMBT4403 - 40V 600mA SOT-23 (TRANS-09245)</description>
 <part name="R6" library="rcl" deviceset="R-US_" device="R0603" value="1.8k"/>
 <part name="R7" library="rcl" deviceset="R-US_" device="R0603" value="1.8k"/>
 <part name="R8" library="rcl" deviceset="R-US_" device="R0603" value="1.8k"/>
+<part name="R9" library="rcl" deviceset="R-US_" device="R0603" value="1k"/>
+<part name="GND7" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <description>Logic</description>
 <plain>
+<wire x1="160.02" y1="111.76" x2="172.72" y2="111.76" width="0.508" layer="97"/>
+<wire x1="160.02" y1="96.52" x2="160.02" y2="111.76" width="0.508" layer="97"/>
+<wire x1="160.02" y1="96.52" x2="172.72" y2="96.52" width="0.508" layer="97"/>
+<wire x1="172.72" y1="96.52" x2="172.72" y2="111.76" width="0.508" layer="97"/>
+<text x="168.91" y="104.14" size="1.778" layer="97" rot="R90" align="center">Version
+Resistor</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="91.44" y="162.56"/>
@@ -12252,6 +12260,11 @@ MMBT4403 - 40V 600mA SOT-23 (TRANS-09245)</description>
 <instance part="R6" gate="G$1" x="208.28" y="109.22" rot="R90"/>
 <instance part="R7" gate="G$1" x="231.14" y="109.22" rot="R90"/>
 <instance part="R8" gate="G$1" x="254" y="109.22" rot="R90"/>
+<instance part="R9" gate="G$1" x="165.1" y="104.14" smashed="yes" rot="R90">
+<attribute name="NAME" x="163.6014" y="100.076" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="163.576" y="106.172" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND7" gate="1" x="165.1" y="116.84" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -12566,6 +12579,11 @@ MMBT4403 - 40V 600mA SOT-23 (TRANS-09245)</description>
 <pinref part="R5" gate="G$1" pin="1"/>
 <pinref part="GND13" gate="1" pin="GND"/>
 <wire x1="45.72" y1="27.94" x2="45.72" y2="30.48" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="GND7" gate="1" pin="GND"/>
+<wire x1="165.1" y1="114.3" x2="165.1" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -12921,6 +12939,14 @@ MMBT4403 - 40V 600mA SOT-23 (TRANS-09245)</description>
 <wire x1="256.54" y1="116.84" x2="254" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="254" y1="116.84" x2="254" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="HW_VERSION" class="0">
+<segment>
+<pinref part="U3" gate="U$1" pin="PC0(ADC0/MISO1)"/>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="162.56" y1="93.98" x2="165.1" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="93.98" x2="165.1" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -14327,4 +14353,10 @@ MMBT4403 - 40V 600mA SOT-23 (TRANS-09245)</description>
 </errors>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>

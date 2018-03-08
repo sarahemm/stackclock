@@ -251,6 +251,17 @@ Display
 <text x="32.385" y="34.29" size="1.778" layer="20" align="center">CUT OUT</text>
 <text x="77.7875" y="34.29" size="1.778" layer="20" align="center">CUT OUT</text>
 <text x="123.825" y="34.29" size="1.778" layer="20" align="center">CUT OUT</text>
+<wire x1="142.24" y1="57.785" x2="153.035" y2="57.785" width="0.254" layer="22"/>
+<wire x1="153.035" y1="57.785" x2="153.035" y2="37.7825" width="0.254" layer="22"/>
+<wire x1="153.035" y1="37.7825" x2="142.24" y2="37.7825" width="0.254" layer="22"/>
+<wire x1="142.24" y1="37.7825" x2="142.24" y2="57.785" width="0.254" layer="22"/>
+<text x="147.6375" y="55.5625" size="2.54" layer="22" ratio="12" rot="MR0" align="center">ECO</text>
+<text x="149.5425" y="51.3715" size="2.032" layer="22" rot="MR0" align="center">A</text>
+<rectangle x1="144.145" y1="49.53" x2="147.6375" y2="53.0225" layer="22"/>
+<rectangle x1="144.145" y1="44.45" x2="147.6375" y2="47.9425" layer="22"/>
+<rectangle x1="144.145" y1="39.37" x2="147.6375" y2="42.8625" layer="22"/>
+<text x="149.5425" y="46.2915" size="2.032" layer="22" rot="MR0" align="center">B</text>
+<text x="149.5425" y="41.2115" size="2.032" layer="22" rot="MR0" align="center">C</text>
 </plain>
 <libraries>
 <library name="led-sen">
@@ -2952,6 +2963,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R6" library="rcl" package="R0603" value="1.8k" x="64.135" y="41.5925" rot="R180"/>
 <element name="R7" library="rcl" package="R0603" value="1.8k" x="64.135" y="39.5605" rot="R180"/>
 <element name="R8" library="rcl" package="R0603" value="1.8k" x="64.135" y="37.5285" rot="R180"/>
+<element name="R9" library="rcl" package="R0603" value="1k" x="48.5775" y="48.895" rot="R180"/>
 </elements>
 <signals>
 <signal name="LED_SDA">
@@ -3365,6 +3377,8 @@ Please make sure your boards conform to these design rules.</description>
 <via x="103.8225" y="14.9225" extent="1-16" drill="0.6"/>
 <via x="103.8225" y="12.065" extent="1-16" drill="0.6"/>
 <via x="130.3655" y="5.207" extent="1-16" drill="0.6"/>
+<contactref element="R9" pad="2"/>
+<via x="45.72" y="48.895" extent="1-16" drill="0.6"/>
 <wire x1="44.45" y1="39.37" x2="45.4025" y2="29.21" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3.3V">
@@ -4611,6 +4625,16 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="R8" pad="2"/>
 <wire x1="63.285" y1="37.5285" x2="54.5965" y2="37.5285" width="0.254" layer="1"/>
 <wire x1="54.5965" y1="37.5285" x2="52.435" y2="39.69" width="0.254" layer="1"/>
+</signal>
+<signal name="HW_VERSION">
+<contactref element="U3" pad="23"/>
+<contactref element="R9" pad="1"/>
+<wire x1="69.755" y1="49.0601" x2="69.755" y2="48.165" width="0.254" layer="1"/>
+<wire x1="69.755" y1="48.165" x2="69.5325" y2="47.9425" width="0.254" layer="1"/>
+<wire x1="69.5325" y1="47.9425" x2="68.58" y2="47.9425" width="0.254" layer="1"/>
+<wire x1="68.58" y1="47.9425" x2="68.2625" y2="48.26" width="0.254" layer="1"/>
+<wire x1="68.2625" y1="48.26" x2="50.0625" y2="48.26" width="0.254" layer="1"/>
+<wire x1="50.0625" y1="48.26" x2="49.4275" y2="48.895" width="0.254" layer="1"/>
 </signal>
 </signals>
 </board>
