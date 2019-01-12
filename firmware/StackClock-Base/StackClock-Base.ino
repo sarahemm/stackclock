@@ -11,7 +11,9 @@ Encoder knob(PIN_ENC_B, PIN_ENC_A);
 
 void setup() {
   Serial.begin(115200);
-  //cliInit();
+  // give the display boards a bit of time to finish coming online
+  delay(250);
+  cliInit();
   configInit();
   displaymgrInit();
   stackInit();
@@ -24,7 +26,7 @@ byte last_second, last_minute, last_hour;
 
 void loop() {
   if(!timeIsSet()) {
-    timeSet(2017, 03, 06, 21, 43, 00);
+    timeSet(2019, 1, 5, 12, 34, 00);
     timeGet();
     stackSetTime(1, timeGetSecond(), timeGetMinute(), timeGetHour());
     stackSetAlpha(1, "QET");
