@@ -1,5 +1,19 @@
 // Numeric - Handle setting the numeric displays.
 
+/*
+(AS1115 channel numbers, for library's idea of numbers subtract 1)
+
+   11111
+  7     2
+  7     2
+  7     2
+   88888
+  5     3
+  5     3
+  5     3
+   44444  6
+
+*/
 #include "NumericFont.h"
 
 // display aren't hooked up to the pins you'd expect, this maps logical display to physical display
@@ -42,11 +56,8 @@ void numericSetMinute(byte mins) {
 }
 
 void numericSetSecond(byte secs) {
-  char time_str[3];
-  
-  sprintf(time_str, "%02d", secs);
-  numeric_buffer[4] = time_str[0] - '0';
-  numeric_buffer[5] = time_str[1] - '0';
+  numeric_buffer[4] = secs / 10;
+  numeric_buffer[5] = secs % 10;
 }
 
 // pivot the data in the buffer to fit the weird way we address displays and write it out

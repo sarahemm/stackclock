@@ -11,7 +11,7 @@ void stackInit(void) {
 byte wire_buf[32];
 byte wire_buf_len = 0;
 
-void stackReceiveCommand(int num_bytes) {  
+void stackReceiveCommand(int num_bytes) {
   if(num_bytes > 8) {
     Serial.println("Very long message received, ignoring!");
     // consume the whole message so we can at least try to keep functioning
