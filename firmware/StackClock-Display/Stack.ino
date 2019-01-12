@@ -33,16 +33,11 @@ void stackReceiveCommand(int num_bytes) {
 void stackProcessQueue(void) {
   while(wire_buf_len > 0) {
     byte cmd_len = 0;
-  
-    //Serial.print("Processing command buffer of ");
-    //Serial.print(wire_buf_len, DEC);
-    //Serial.println(" bytes.");
-  
     byte cmd = wire_buf[0];
     cmd_len++;
     
-    Serial.print("CMD 0x");
-    Serial.println(cmd, HEX);
+    //Serial.print("CMD 0x");
+    //Serial.println(cmd, HEX);
     
     switch (cmd) {
       case CMD_SETALPHA:
