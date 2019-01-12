@@ -1,3 +1,4 @@
+#include <TimerOne.h>
 #include <Wire.h>
 #include <AS1115.h>
 #include "Stack.h"
@@ -16,10 +17,6 @@ void setup() {
 }
 
 void loop() {
-  // this must be called frequently as it muxes the displays by hand
-  // TODO: put this on a timer
-  alphaRefreshDisplays();
-
   // process any commands waiting in the queue
   stackProcessQueue();
 }
