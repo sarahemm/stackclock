@@ -236,7 +236,8 @@ const uint8_t PROGMEM digital_pin_to_timer_PGM[] = {
 // analog
 #define IR_LEVEL          (3)
 
+// timer pins
+#define TIMER1_A_PIN      (9)
+
 #endif
-
-
 
